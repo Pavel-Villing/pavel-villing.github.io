@@ -85,6 +85,7 @@
    .skills span:hover {
     background-color: #4a6889;
     transform: scale(1.05);
+<<<<<<< HEAD
   }
  
  
@@ -126,3 +127,6 @@
  
  
  
+=======
+  }
+>>>>>>> parent of b10accd... Add styling to resume download link, footer with icons
