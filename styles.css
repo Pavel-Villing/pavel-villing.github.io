@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   /* Base styling */
+  body {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #1e2a38;
+    color: #e2e8f0;
+    line-height: 1.7;
+    text-align: center;
+  }
+   /* Header */
+  h1 {
+    font-weight: 600;
+    background-color: #2b3c4f;
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 2.2rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+   /* Navigation */
+  nav {
+    background-color: #2b3c4f;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    margin-bottom: 40px;
+  }
+   nav a {
+    color: #cbd5e1;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 1.05rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+ 
+ 
+  nav a:hover {
+    background-color: #3c4f64;
+    color: #ffffff;
+  }
+   /* Welcome message */
+  .welcome {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+   /* Section titles */
+  h2 {
+    color: #e2e8f0;
+    font-size: 1.4rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+   /* Skills section */
+  .skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+   .skills span {
+    background-color: #3c4f64;
+    padding: 10px 18px;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #dfe6ee;
+    border: 1px solid #526a80;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+   .skills span:hover {
+    background-color: #4a6889;
+    transform: scale(1.05);
+  }
+ 
+ 
+  /* Resume download link */
+  a[href$=".pdf"] {
+    color: #81b7ff;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+   /* Footer with icon buttons */
+  footer {
+    margin-top: 80px;
+    padding: 30px 20px;
+    background-color: #2b3c4f;
+    border-top: 1px solid #44566b;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+   /* Icon button style */
+  .icon-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    font-size: 1.2rem;
+    background-color: #3c4f64;
+    color: #e2e8f0;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+   .icon-btn:hover {
+    background-color: #4a6889;
+    transform: scale(1.1);
+  }
+ 
+ 
+ 
