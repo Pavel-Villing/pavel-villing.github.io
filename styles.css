@@ -144,23 +144,23 @@
 }
 
 /* Images next to paragraphs */
-.about-block img {
+.about-block img:not(.sfu-logo) {
   width: 100px;
   height: 100px;
   object-fit: cover;
-  border-radius: 12px; /* Rounded corners */
+  border-radius: 12px;
   flex-shrink: 0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle depth */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-  
-/* Seperate for sfu logo to ensure it meets SFU guidlines*/
-  .sfu-logo {
-    width: auto;
-    height: 100px;  /* Keep consistent height with other images */
-    object-fit: contain;
-    border-radius: 0;
-    box-shadow: none;
-  }
-  
- 
+
+/* Ensure the SFU logo is not modified and compliant with SFU guidlines */
+.sfu-logo {
+  width: auto;
+  height: auto;
+  max-width: 100px;
+  max-height: 60px;
+  object-fit: contain;
+  border-radius: 0;
+  box-shadow: none;
+}
  
