@@ -85,7 +85,6 @@
    .skills span:hover {
     background-color: #4a6889;
     transform: scale(1.05);
-<<<<<<< HEAD
   }
  
  
@@ -125,8 +124,28 @@
     transform: scale(1.1);
   }
  
- 
- 
-=======
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
   }
->>>>>>> parent of b10accd... Add styling to resume download link, footer with icons
+  
+  .about-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .about-block img {
+    width: 80px;         
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+  
+ 
+ 
