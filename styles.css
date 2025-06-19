@@ -330,3 +330,15 @@
   background-color: #54718c;
   color: #ffffff;
 }
+
+.site-intro {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  letter-spacing: 0.3px;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
