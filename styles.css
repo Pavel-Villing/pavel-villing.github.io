@@ -179,23 +179,77 @@
   width: 100%;
 }
 
-.project-block {
+/* Project Card Layout */
+.project-card {
+  background-color: #2b3c4f;
+  border-radius: 16px;
+  padding: 20px;
   display: flex;
-  align-items: center;
-  justify-content:center; 
   gap: 20px;
-}
-
-.project-block img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.project-block p {
-  margin: 0;
-  font-size: 1.1rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  align-items: flex-start;
+  max-width: 800px;
+  margin: 0 auto;
   color: #f5f5f5;
+  transition: transform 0.2s ease;
+  min-height: 240px;
+  min-width: 800px;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+}
+
+.card-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.card-content {
+  flex: 1;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.card-content h3 {
+  margin-bottom: 6px;
+  font-size: 1.2rem;
+}
+
+.card-date {
+  font-size: 0.9rem;
+  color: #a0aec0;
+  margin-bottom: 10px;
+}
+
+.card-content ul {
+  padding-left: 20px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.card-content ul li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+/* Skill Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags span {
+  background-color: #3c4f64;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #dfe6ee;
 }
