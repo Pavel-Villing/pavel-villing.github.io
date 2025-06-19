@@ -79,7 +79,7 @@
     font-weight: 500;
     color: #dfe6ee;
     border: 1px solid #526a80;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
     transition: transform 0.2s ease, background-color 0.2s ease;
   }
    .skills span:hover {
